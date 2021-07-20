@@ -11,4 +11,5 @@ Also, the philosophers should be fair. Each philosopher should be able to eat
 as much as the rest.
 
 philosophers.c - implemented using processes and semaphores
+
 philosophers2.c - implemented using threads and mutexes
