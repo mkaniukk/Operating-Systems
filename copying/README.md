@@ -1,4 +1,4 @@
-# uni-eopsy
+# Copying
 A program which copies one file to another. Syntax:
 
   copy [-m] <file_name> <new_file_name>
