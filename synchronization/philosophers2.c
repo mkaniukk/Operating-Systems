@@ -93,27 +93,3 @@ void main(){
 	}
 	exit(0);
 }	
-
-/* Additional questions:
-
-1. Would it be sufficient just to add to the old algorithm from task5
-additional mutex variable to organize critical sections in functions
-grab_forks() and put_away_forks() for making changes to values of two mutexes
-indivisably?  If not, why?
-
-Answer: No, because in this case program is focused on philosophers, not forks like in task 5 
-	where we could have blocked two forks at the same time. If we did not change the code, 
-	there would be a possibility that philosophers will block each others waiting in mutexes.
-	Therefore it is necessary to use new variables in grab and put functions. 
-
-
-2. Why m mutex is initialized with 1 and mutexes from the array s are
-initialized with 0's?
-	
-Answer: Mutexes from m are initialized with 1's to allow philosophers grabbing and putting away 
-	forks. Mutexes from s are intialized with 0's to block philosophers from grabbing and 
-	putting away forks.
-
-*/
-
-
