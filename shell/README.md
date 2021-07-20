@@ -1,4 +1,4 @@
-# uni-eopsy
+# Shell script
 
 A script with the following syntax:
 
