@@ -1,5 +1,4 @@
-# uni-eopsy
-Implementation of The Dining Philosophers in C
+# Implementation of The Dining Philosophers in C
 
 The Dining Philosophers problem is a classic multi-process synchronization
 problem. The problem consists of five philosophers sitting at a table who do
@@ -10,6 +9,6 @@ left. In this case a deadlock has occurred, and all philosophers will starve.
 Also, the philosophers should be fair. Each philosopher should be able to eat
 as much as the rest.
 
-philosophers.c - implemented using processes and semaphores
+* philosophers.c - implemented using processes and semaphores
 
-philosophers2.c - implemented using threads and mutexes
+* philosophers2.c - implemented using threads and mutexes
